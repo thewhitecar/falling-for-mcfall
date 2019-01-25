@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
-import background from '../../assets/background.png'
+import background from '../../assets/background.jpg'
 import overlay from '../../assets/mcfallwhitecar.png'
 
 export default class SplashPage extends Component {
