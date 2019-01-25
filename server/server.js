@@ -3,7 +3,7 @@ const express = require('express')
 // const massive = require('massive')
 const bodyParser = require('body-parser')
 const path = require('path');
-// require('dotenv').config()
+require('dotenv').config()
 
 const app = express();
 const port = process.env.SERVER_PORT;
