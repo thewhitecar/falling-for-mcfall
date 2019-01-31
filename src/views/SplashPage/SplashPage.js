@@ -10,10 +10,27 @@ export default class SplashPage extends Component {
       <Background>
         <Gradient/>
         <Overlay src={overlay}/>
+        <Footer><A href="https://thewhitecar.info/">DESIGNED & DEVELOPED BY RYAN WHITECAR</A></Footer>
       </Background>
     );
   }
 }
+
+const Footer = styled.div`
+  z-index: 100;
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  text-align: center;
+`
+
+const A = styled.a`
+  color: #FAFAFA50;
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 7px;
+  text-decoration: none;
+`
 
 const Background = styled.div`
   z-index: -1;
